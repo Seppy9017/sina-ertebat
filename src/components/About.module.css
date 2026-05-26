@@ -1,0 +1,17 @@
+#aboutBox {
+  width: 95%;
+  margin: 50px;
+  /* border-top: 2px solid var(--active-color); */
+  padding-top: 15px;
+}
+
+#headerTopBox {
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: space-between;
+  margin: 0 20px;
+}
+#aboutBox p,
+#aboutBox h3 {
+  color: var(--white-color);
+}

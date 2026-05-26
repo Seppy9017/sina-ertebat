@@ -1,0 +1,140 @@
+:root {
+  --blur-md: blur(2px);
+}
+
+.posterBox {
+  width: 100%;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+.mobilePosters {
+  width: 100%;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+
+.horizentalPosters {
+  max-width: 100%;
+  overflow: hidden;
+  /* height: 400px; */
+  margin: 0;
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  /* border-radius: 5px; */
+  animation: slide 0.5s linear;
+  z-index: 0;
+}
+.verticalPosters {
+  max-width: 100%;
+  overflow: hidden;
+  /* height: 400px; */
+  margin: 0;
+  width: 90vw;
+  display: none;
+  justify-content: center;
+  /* border-radius: 5px; */
+  animation: slide 0.5s linear;
+  z-index: 0;
+}
+.photoButtons {
+  cursor: pointer;
+  width: 55px;
+  position: absolute;
+  left: 5px;
+  background-color: rgba(255, 255, 255, 0.5);
+  backdrop-filter: var(--blur-md);
+  border-radius: 50px;
+  padding-left: 5px;
+  z-index: 99;
+}
+
+#next {
+  left: calc(100% - 65px);
+}
+#next img {
+  height: 53px;
+}
+#previous img {
+  padding-left: 0;
+  padding-right: 2px;
+}
+.photoBtnBox {
+  width: fit-content;
+  background: transparent;
+  border: none;
+  position: absolute;
+  transition: all 0.2s ease-in-out;
+}
+.photoBtnBox:hover {
+  transform: scale(1.03);
+}
+.posterContainer {
+  width: 100%;
+  display: flex;
+  flex-direction: row-reverse;
+  align-items: center;
+  /* justify-content: center; */
+}
+
+.inactive {
+  background-color: #eeeeeeb5;
+}
+.posterDot {
+  width: 15px;
+  margin-right: 10px;
+  cursor: pointer;
+}
+.dotBox {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(255, 255, 255, 0.8);
+  backdrop-filter: var(--blur-md);
+  padding: 5px;
+  border-radius: 15px;
+  padding-left: 17px;
+  position: absolute;
+  top: 500px;
+  right: 45%;
+}
+.reveal {
+  opacity: 0;
+  transform: translateY(20px);
+  transition:
+    opacity 0.6s ease,
+    transform 0.6s ease;
+}
+
+/* وقتی وارد دید شد */
+.reveal.revealActive {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+.ralewayFont {
+  font-family: "Comic Neue", cursive;
+  font-optical-sizing: auto;
+  font-weight: 300;
+  font-style: normal;
+}
+
+@media (max-width: 767px) {
+  .posterBox {
+    display: none;
+  }
+  .dotBox {
+    top: 800px;
+  }
+}
+@media (min-width: 767px) {
+  .mobilePosters {
+    display: none;
+  }
+}
