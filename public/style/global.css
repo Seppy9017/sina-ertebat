@@ -311,6 +311,7 @@ footer > p {
   }
   .logo {
     height: 89px;
+    width: auto;
   }
   #menu-btn {
     display: inline-flex;
@@ -367,6 +368,10 @@ footer > p {
     padding: 3px 8px;
     width: 45px;
     height: 45px;
+  }
+  .logo {
+    height: 60px;
+    width: auto;
   }
 }
 
