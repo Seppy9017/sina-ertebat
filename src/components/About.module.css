@@ -1,6 +1,6 @@
 #aboutBox {
   width: 95%;
-  margin: 50px;
+  margin: 50px 20px;
   /* border-top: 2px solid var(--active-color); */
   padding-top: 15px;
 }

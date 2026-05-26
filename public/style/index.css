@@ -132,6 +132,10 @@
   .dotBox {
     top: 800px;
   }
+  #aboutBox {
+    margin-right: 20px;
+    margin-left: 20px;
+  }
 }
 @media (min-width: 767px) {
   .mobilePosters {
