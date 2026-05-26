@@ -1,9 +1,9 @@
 :root {
   --blur-md: blur(2px);
 }
-.carousel{
+.carousel {
   display: flex;
-  justify-content: center;
+  padding: auto;
 }
 .posterBox {
   width: 90%;
