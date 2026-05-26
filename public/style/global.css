@@ -326,8 +326,12 @@ footer > p {
   #footer-parts-box {
     flex-direction: column;
   }
-.footer-parts {
-width: 90%;
+  .footer-parts {
+    width: 90%;
+  }
+  #aboutBox{
+    margin-right:20px ;
+  }
 }
 
 @media (max-width: 480px) {
