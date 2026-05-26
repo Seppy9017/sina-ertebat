@@ -1,5 +1,5 @@
 #aboutBox {
-  width: 90%;
+  max-width: 90%;
   margin: 50px 20px;
   /* border-top: 2px solid var(--active-color); */
   padding-top: 15px;
