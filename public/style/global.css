@@ -373,6 +373,10 @@ footer > p {
     height: 60px;
     width: auto;
   }
+  #menu-btn {
+    height: 25px;
+    width: 25px;
+  }
 }
 
 /* #toTopBox {
