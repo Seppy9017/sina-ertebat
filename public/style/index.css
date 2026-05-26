@@ -130,7 +130,9 @@
     display: none;
   }
   .dotBox {
-    top: 800px;
+    top: 575px;
+    margin-left: auto;
+    margin-right: auto;
   }
   #aboutBox {
     margin-right: 20px;
