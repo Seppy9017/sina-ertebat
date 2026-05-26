@@ -5,7 +5,10 @@ let index = null;
 if (window.innerWidth >= 768) {
   slider = document.querySelector(".posterBox");
 } else {
-  slider = document.getElementsByClassName("mobilePosters");
+  slider = document.querySelector(".mobilePosters");
+  slider.children.forEach((slide) => {
+    slide.style.display = "flex";
+  });
 }
 const slides = slider.children;
 const nextBtn = document.getElementById("next");
