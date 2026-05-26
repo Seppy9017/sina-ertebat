@@ -330,9 +330,12 @@ footer > p {
   .footer-parts {
     width: 90%;
   }
-  #aboutBox{
-    margin-right:20px ;
-    margin-left:20px ;
+  #aboutBox {
+    margin-right: 20px;
+    margin-left: 20px;
+  }
+  .header-btn {
+    display: none;
   }
 }
 
