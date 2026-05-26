@@ -323,6 +323,11 @@ footer > p {
   .footer-parts {
     padding: 20px;
   }
+  #footer-parts-box {
+    flex-direction: column;
+  }
+.footer-parts {
+width: 90%;
 }
 
 @media (max-width: 480px) {
