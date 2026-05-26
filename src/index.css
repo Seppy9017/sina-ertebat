@@ -32,6 +32,7 @@
 @media (max-width: 768px) {
   .verticalPosters {
     display: flex;
+    width: 90%;
   }
 }
 @media (prefers-color-scheme: dark) {
